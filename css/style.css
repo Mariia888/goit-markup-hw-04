@@ -194,13 +194,8 @@ ul {
 /*__header_icons__*/
 
 .icons {
-  content: "";
-  fill: var(--icons-color);
-  width: 270px;
-  height: 120px;
-  background-position: center;
-  background: var(--main-section);
-  padding: 25px 100px;
+  width: 70px;
+  height: 70px;
 }
 
 .icon {
@@ -342,9 +337,15 @@ ul {
   margin-top: 30px;
 }
 
+.list-item {
+  background: var(--main-section);
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
 .our-team-list-item {
   width: 270px;
-
+  fill: var(--icons-color);
   margin-bottom: 30px;
 }
 
@@ -758,6 +759,10 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--primary-text-color);
+}
+
+.item-img-link1:focus {
+  border: 4px solid transparent;
 }
 
 /*__BUTTON PORTFOLIO__*/
