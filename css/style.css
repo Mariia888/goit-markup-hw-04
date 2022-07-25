@@ -439,6 +439,7 @@ ul {
 .our-team-item-image {
   width: 270px;
   height: 260px;
+  display: block;
 }
 
 .our-team-item-titles {
@@ -655,8 +656,8 @@ ul {
   align-items: center;
 }
 
-.footer-socials-link:not(last:last-child) {
-  margin-left: 10px;
+.footer-socials-link:not(:last-child) {
+  margin-right: 10px;
 }
 
 .icon-link {
