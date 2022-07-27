@@ -528,8 +528,7 @@ ul {
 
 .clients-icon:hover,
 .icons-company:hover,
-.clients-icon:focus-within,
-.icons-company:focus {
+.clients-icon:focus .icons-company {
   fill: var(--accent-color);
 }
 
@@ -757,7 +756,7 @@ ul {
   color: var(--primary-text-color);
 }
 
-.item-img-link1:focus-within {
+.item-img-link1:focus {
   border: 4px solid transparent;
 }
 
