@@ -526,9 +526,9 @@ ul {
   fill: var(--icons-color);
 }
 
-.clients-icon,
+.clients-icon:hover,
 .icons-company:hover,
-.clients-icon,
+.clients-icon:focus-within,
 .icons-company:focus {
   fill: var(--accent-color);
 }
