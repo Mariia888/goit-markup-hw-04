@@ -757,7 +757,7 @@ ul {
   color: var(--primary-text-color);
 }
 
-.item-img-link1:focus {
+.item-img-link1:focus-within {
   border: 4px solid transparent;
 }
 
